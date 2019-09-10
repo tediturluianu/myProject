@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto Light"; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
+#app {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.header {
+  height: 4em;
+  width: 100%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  display: flex;
+  align-items: center; }
+
+.headerList {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center; }
+
+.headerList li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 22px; }
+
+.headerList li a:hover {
+  color: yellow;
+  font-size: 24px; }
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black; }
+
+.image-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.slide-arrow-left {
+  background-image: url("http://static.birgun.net/static/images/slider-arrow-right.svg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 8em;
+  width: 8em;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s linear;
+  margin: 0;
+  padding: 0; }
+
+.slide-arrow-right {
+  background-image: url("http://static.birgun.net/static/images/slider-arrow-left.svg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 8em;
+  width: 8em;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s linear;
+  margin: 0;
+  padding: 0; }
+
+.firstContainer {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black; }
+
+.calendar-events {
+  width: 400px;
+  height: 300px;
+  background-color: white; }
+
+.latest-events {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: 60px auto 0px auto;
+  display: flex;
+  flex-direction: row; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
+.fa-youtube {
+  background: #bb0000;
+  color: white; }
+
+.fa-instagram {
+  background: #bc2a8d;
+  color: white; }
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white; }
+
+footer ul li a {
+  text-decoration: none; }
+
+footer ul li {
+  list-style: none; }
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+footer {
+  height: 4em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.form label {
+  color: #4eb5f1; }
+
+.form label input {
+  color: #4eb5f1; }
+
+.form label textarea {
+  color: #4eb5f1; }
+
+.firstContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 700px;
+  margin: 0 auto;
+  color: black; }
+
+.submitButton {
+  border: none;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s; }
+
+.submitButton:hover {
+  background-color: #4095c6; }
+
+.formBtn {
+  border: none;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s; }
+
+.formBtn:hover {
+  background-color: #4095c6; }
+
+/*# sourceMappingURL=maps/main.css.map */
